@@ -12,6 +12,11 @@
 		A7D2A1F81CB201BE00E87F71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D2A1F61CB201BE00E87F71 /* Main.storyboard */; };
 		A7D2A1FA1CB201BE00E87F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D2A1F91CB201BE00E87F71 /* Assets.xcassets */; };
 		A7D2A1FD1CB201BE00E87F71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D2A1FB1CB201BE00E87F71 /* LaunchScreen.storyboard */; };
+		A7D2A2051CB2034200E87F71 /* VistaTamanio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D2A2041CB2034200E87F71 /* VistaTamanio.swift */; };
+		A7D2A2071CB2049A00E87F71 /* VistaMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D2A2061CB2049A00E87F71 /* VistaMasa.swift */; };
+		A7D2A2091CB2064E00E87F71 /* VistaQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D2A2081CB2064E00E87F71 /* VistaQueso.swift */; };
+		A7D2A20B1CB2082500E87F71 /* VistaExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D2A20A1CB2082500E87F71 /* VistaExtras.swift */; };
+		A7D2A20D1CB20B7200E87F71 /* VistaConfirmar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D2A20C1CB20B7200E87F71 /* VistaConfirmar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		A7D2A1F91CB201BE00E87F71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7D2A1FC1CB201BE00E87F71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7D2A1FE1CB201BE00E87F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7D2A2041CB2034200E87F71 /* VistaTamanio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaTamanio.swift; sourceTree = "<group>"; };
+		A7D2A2061CB2049A00E87F71 /* VistaMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaMasa.swift; sourceTree = "<group>"; };
+		A7D2A2081CB2064E00E87F71 /* VistaQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaQueso.swift; sourceTree = "<group>"; };
+		A7D2A20A1CB2082500E87F71 /* VistaExtras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaExtras.swift; sourceTree = "<group>"; };
+		A7D2A20C1CB20B7200E87F71 /* VistaConfirmar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaConfirmar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				A7D2A1F91CB201BE00E87F71 /* Assets.xcassets */,
 				A7D2A1FB1CB201BE00E87F71 /* LaunchScreen.storyboard */,
 				A7D2A1FE1CB201BE00E87F71 /* Info.plist */,
+				A7D2A2041CB2034200E87F71 /* VistaTamanio.swift */,
+				A7D2A2061CB2049A00E87F71 /* VistaMasa.swift */,
+				A7D2A2081CB2064E00E87F71 /* VistaQueso.swift */,
+				A7D2A20A1CB2082500E87F71 /* VistaExtras.swift */,
+				A7D2A20C1CB20B7200E87F71 /* VistaConfirmar.swift */,
 			);
 			path = CrearTuPizza;
 			sourceTree = "<group>";
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7D2A20B1CB2082500E87F71 /* VistaExtras.swift in Sources */,
+				A7D2A20D1CB20B7200E87F71 /* VistaConfirmar.swift in Sources */,
+				A7D2A2051CB2034200E87F71 /* VistaTamanio.swift in Sources */,
+				A7D2A2091CB2064E00E87F71 /* VistaQueso.swift in Sources */,
 				A7D2A1F51CB201BE00E87F71 /* ViewController.swift in Sources */,
 				A7D2A1F31CB201BE00E87F71 /* AppDelegate.swift in Sources */,
+				A7D2A2071CB2049A00E87F71 /* VistaMasa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
